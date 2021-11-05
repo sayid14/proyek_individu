@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cari Kos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paragraph">kos darul ajumi, lebar kamar 5X4, Harga sewa 500.000 per bulan</string>
+    <string name="paragrap2">kos mujahidin, lebar kamar 5X4, Harga sewa 500.000 per bulan</string>
+    <string name="paragrap3">kos nurul huda, lebar kamar 5X4, Harga sewa 500.000 per bulan</string>
+</resources>

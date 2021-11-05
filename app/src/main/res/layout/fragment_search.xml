@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#113CFC"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="CARI KOS"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tutorial"
+            android:layout_centerHorizontal="true"
+            android:text="Lokasi Kos sekitar saya sekarang"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/btn4"
+            android:src="@drawable/kosdarulajumi"/>
+
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kos Darul Ajumi"
+            android:layout_below="@id/img1"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tex1"
+            android:layout_centerHorizontal="true"
+            android:text="lihat"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/kosmujahidin"
+            android:layout_below="@id/btn1"/>
+
+        <TextView
+            android:id="@+id/tex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kos Mujahidin"
+            android:layout_below="@id/img2"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tex2"
+            android:layout_centerHorizontal="true"
+            android:text="lihat"/>
+
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/kos7"
+            android:layout_below="@id/btn2"/>
+
+        <TextView
+            android:id="@+id/tex3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kos Nurul Huda"
+            android:layout_below="@id/img3"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tex3"
+            android:layout_centerHorizontal="true"
+            android:text="lihat"/>
+
+    </RelativeLayout>
+
+</ScrollView>

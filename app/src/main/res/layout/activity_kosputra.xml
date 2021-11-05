@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KosputraActivity">
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kosmujahidin"/>
+
+    <TextView
+        android:id="@+id/tex6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img6"
+        android:layout_centerHorizontal="true"
+        android:text="@string/paragrap2"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tex6"
+        android:layout_centerHorizontal="true"
+        android:text="Lokasi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn6"
+        android:layout_centerHorizontal="true"
+        android:text="ajukan sewa lewat whatssap"/>
+
+</RelativeLayout>
